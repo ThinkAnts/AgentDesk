@@ -13,6 +13,17 @@
 		18670A9520654855004FC88F /* Agentdesks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18670A9320654855004FC88F /* Agentdesks.xcdatamodeld */; };
 		18670A9720654855004FC88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18670A9620654855004FC88F /* Assets.xcassets */; };
 		18670A9A20654855004FC88F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18670A9820654855004FC88F /* LaunchScreen.storyboard */; };
+		18670AA320654A4F004FC88F /* ArticlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18670AA120654A4F004FC88F /* ArticlesTableViewCell.swift */; };
+		18670AA420654A4F004FC88F /* ArticlesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18670AA220654A4F004FC88F /* ArticlesTableViewCell.xib */; };
+		18670AAA20655D24004FC88F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18670AA920655D24004FC88F /* APIClient.swift */; };
+		18670AAC2065607B004FC88F /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18670AAB2065607B004FC88F /* APIResponse.swift */; };
+		18670AB120656460004FC88F /* ArticlesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18670AB020656460004FC88F /* ArticlesAPI.swift */; };
+		18670AB420656B43004FC88F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18670AB320656B43004FC88F /* AppConstants.swift */; };
+		18670AB620656CEB004FC88F /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18670AB520656CEB004FC88F /* Articles.swift */; };
+		18845D4020664113007ABCAF /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18845D3F20664113007ABCAF /* ArticleViewModel.swift */; };
+		18845D4220664299007ABCAF /* ArticleViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18845D4120664299007ABCAF /* ArticleViewModelController.swift */; };
+		18C02E962066B1550009CF1D /* BaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C02E952066B1550009CF1D /* BaseProtocol.swift */; };
+		84D2E0E466712EC7C53D473F /* Pods_Agentdesks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3393242BD9DBF0A47F56C037 /* Pods_Agentdesks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,19 @@
 		18670A9620654855004FC88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18670A9920654855004FC88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18670A9B20654855004FC88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18670AA120654A4F004FC88F /* ArticlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewCell.swift; sourceTree = "<group>"; };
+		18670AA220654A4F004FC88F /* ArticlesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticlesTableViewCell.xib; sourceTree = "<group>"; };
+		18670AA920655D24004FC88F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		18670AAB2065607B004FC88F /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		18670AB020656460004FC88F /* ArticlesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesAPI.swift; sourceTree = "<group>"; };
+		18670AB320656B43004FC88F /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		18670AB520656CEB004FC88F /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		18845D3F20664113007ABCAF /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		18845D4120664299007ABCAF /* ArticleViewModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModelController.swift; sourceTree = "<group>"; };
+		18C02E952066B1550009CF1D /* BaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProtocol.swift; sourceTree = "<group>"; };
+		2468A0F2D864A054A9DF8CAA /* Pods-Agentdesks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agentdesks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Agentdesks/Pods-Agentdesks.debug.xcconfig"; sourceTree = "<group>"; };
+		2EC3C465DAD740F1FF1A6926 /* Pods-Agentdesks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agentdesks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Agentdesks/Pods-Agentdesks.release.xcconfig"; sourceTree = "<group>"; };
+		3393242BD9DBF0A47F56C037 /* Pods_Agentdesks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agentdesks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D2E0E466712EC7C53D473F /* Pods_Agentdesks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				18670A8B20654855004FC88F /* Agentdesks */,
 				18670A8A20654855004FC88F /* Products */,
+				FC14D83C00C1BB798DCFD6CC /* Pods */,
+				518C37C46F50201D08BDA841 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,98 @@
 		18670A8B20654855004FC88F /* Agentdesks */ = {
 			isa = PBXGroup;
 			children = (
+				18845D4420665636007ABCAF /* View */,
+				18845D432066561D007ABCAF /* Controllers */,
+				18845D3E206640F8007ABCAF /* ViewModel */,
+				18670AB220656B28004FC88F /* Utilities */,
+				18670AA620655CAB004FC88F /* Networking */,
+				18670AA520655711004FC88F /* Model */,
 				18670A8C20654855004FC88F /* AppDelegate.swift */,
-				18670A8E20654855004FC88F /* ViewController.swift */,
-				18670A9020654855004FC88F /* Main.storyboard */,
 				18670A9620654855004FC88F /* Assets.xcassets */,
 				18670A9820654855004FC88F /* LaunchScreen.storyboard */,
 				18670A9B20654855004FC88F /* Info.plist */,
 				18670A9320654855004FC88F /* Agentdesks.xcdatamodeld */,
 			);
 			path = Agentdesks;
+			sourceTree = "<group>";
+		};
+		18670AA520655711004FC88F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18670AB520656CEB004FC88F /* Articles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18670AA620655CAB004FC88F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18670AAD206563E5004FC88F /* Targets */,
+				18670AA920655D24004FC88F /* APIClient.swift */,
+				18670AAB2065607B004FC88F /* APIResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18670AAD206563E5004FC88F /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				18670AB020656460004FC88F /* ArticlesAPI.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		18670AB220656B28004FC88F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18670AB320656B43004FC88F /* AppConstants.swift */,
+				18C02E952066B1550009CF1D /* BaseProtocol.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		18845D3E206640F8007ABCAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18845D3F20664113007ABCAF /* ArticleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18845D432066561D007ABCAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18670A8E20654855004FC88F /* ViewController.swift */,
+				18845D4120664299007ABCAF /* ArticleViewModelController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18845D4420665636007ABCAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18670AA120654A4F004FC88F /* ArticlesTableViewCell.swift */,
+				18670AA220654A4F004FC88F /* ArticlesTableViewCell.xib */,
+				18670A9020654855004FC88F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		518C37C46F50201D08BDA841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3393242BD9DBF0A47F56C037 /* Pods_Agentdesks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC14D83C00C1BB798DCFD6CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2468A0F2D864A054A9DF8CAA /* Pods-Agentdesks.debug.xcconfig */,
+				2EC3C465DAD740F1FF1A6926 /* Pods-Agentdesks.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18670A9E20654855004FC88F /* Build configuration list for PBXNativeTarget "Agentdesks" */;
 			buildPhases = (
+				41878A6710F31191E2AFEF18 /* [CP] Check Pods Manifest.lock */,
 				18670A8520654855004FC88F /* Sources */,
 				18670A8620654855004FC88F /* Frameworks */,
 				18670A8720654855004FC88F /* Resources */,
+				E25DC5521D437222B7ADB579 /* [CP] Embed Pods Frameworks */,
+				D8954529CCD207FDD9F6F877 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18670AA420654A4F004FC88F /* ArticlesTableViewCell.xib in Resources */,
 				18670A9A20654855004FC88F /* LaunchScreen.storyboard in Resources */,
 				18670A9720654855004FC88F /* Assets.xcassets in Resources */,
 				18670A9220654855004FC88F /* Main.storyboard in Resources */,
@@ -134,14 +248,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41878A6710F31191E2AFEF18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agentdesks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8954529CCD207FDD9F6F877 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agentdesks/Pods-Agentdesks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25DC5521D437222B7ADB579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Agentdesks/Pods-Agentdesks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agentdesks/Pods-Agentdesks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18670A8520654855004FC88F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18670AA320654A4F004FC88F /* ArticlesTableViewCell.swift in Sources */,
 				18670A8F20654855004FC88F /* ViewController.swift in Sources */,
 				18670A8D20654855004FC88F /* AppDelegate.swift in Sources */,
+				18670AB420656B43004FC88F /* AppConstants.swift in Sources */,
+				18670AB620656CEB004FC88F /* Articles.swift in Sources */,
+				18670AAA20655D24004FC88F /* APIClient.swift in Sources */,
+				18C02E962066B1550009CF1D /* BaseProtocol.swift in Sources */,
+				18845D4220664299007ABCAF /* ArticleViewModelController.swift in Sources */,
+				18670AB120656460004FC88F /* ArticlesAPI.swift in Sources */,
+				18845D4020664113007ABCAF /* ArticleViewModel.swift in Sources */,
 				18670A9520654855004FC88F /* Agentdesks.xcdatamodeld in Sources */,
+				18670AAC2065607B004FC88F /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +459,7 @@
 		};
 		18670A9F20654855004FC88F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2468A0F2D864A054A9DF8CAA /* Pods-Agentdesks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -284,12 +468,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TA.Agentdesks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18670AA020654855004FC88F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC3C465DAD740F1FF1A6926 /* Pods-Agentdesks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,7 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TA.Agentdesks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
